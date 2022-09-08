@@ -18,7 +18,6 @@ const findSum = (num) => {
   const remainingNum = Math.floor(num / 10);
   return findSum(lastDigit + findSum(remainingNum));
 };
-console.log(findSum(2568));
 ///End task 1
 
 //Task 2
